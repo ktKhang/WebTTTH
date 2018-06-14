@@ -1,0 +1,100 @@
+.header-page {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 1px;
+  background-color: #eaeff3;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+}
+
+
+#postingbox{
+	margin-top: 100px;
+	margin-bottom: 100px;
+  margin-left: auto;
+  width: 85%;
+  margin-right: auto;
+}
+#postingbox #tittleID, #postingbox .ten_tieude, #authorID, #dateID{
+
+    float: none;
+    margin-top: 23px;
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+form .ten_tieude {
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.inner{
+    margin: 10px;
+}
+.inner>h2{
+    margin-top: 0;
+    padding-top: 11px;
+    padding-bottom: 22px;
+    overflow: hidden;
+    font-weight: 300;
+    color: black;
+    background: transparent;
+}
+input{
+	color: inherit;
+    font: inherit;
+    margin: 0;
+}
+.button1-submit{
+	padding: 5px 20px;
+	margin: 5px 0px;
+}
+.st-editor__box{
+  padding-top: 24px;
+  padding-bottom: 20px;
+}
+#tittleID, #authorID, #dateID{
+	padding-top:5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+#dateID{
+    width:100%;
+    border-radius: inherit;
+}
+.inputbox{
+  padding-left: 10px;
+  padding-top: 5px;
+  font-size: 16px;
+  width: 100%;
+}
+#postingbox .btn{
+  padding: 7px;
+  width: 100px;
+}
+#postingbox .val_error{
+  color: #FF1F1F;
+}
+.responsive {
+  padding-left: 0%;
+  padding-right: 0%;
+  width: 240%;
+}
+@media (max-width: 450px) {
+  .responsive{
+  width: 100%;
+  }
+}
+@media (min-width: 450px) {
+  .responsive{
+  width: 80%;
+  }
+}
+@media (min-width: 992px) {
+  .responsive{
+  width: 70%;
+  }
+}
+@media (min-width: 1199px) {
+  .responsive{
+  width: 63%;
+  }
+}

@@ -1,0 +1,55 @@
+.header-page {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 1px;
+  background: url(../images/khoahoc/tieude/KH3.jpg) fixed;
+  background-size: cover;
+  height: 250px;
+  width: 100%;
+}
+.header-page h1{
+  margin-top: 130px;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+}
+.header-content {
+  width: 80%;
+  margin: auto;
+}
+/**/
+.card{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.infoClass{
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+	background-color: #f1f4f7; 
+	padding: 10px 5px;
+}
+.btn-instagram{
+	color: #fff;
+	background-color: #3f729b;
+}
+.btn-label{
+	background: rgba(0, 0, 0, 0.15);
+	margin: -6px 12px -6px -14px;
+	padding: 7px 15px;
+}
+h3{
+	font-weight: bold;
+}
+.body{
+	margin-top: 30px;
+	background: rgba(0, 0, 0, 0.07);
+	border-radius: 4px;
+	padding: 17px;
+}
+#myTable tbody tr td input{
+	height:30px;
+}
+.pull-left input{
+	padding: 5px 20px;
+}
+.body h3{
+	text-align: center;
+}

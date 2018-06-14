@@ -1,0 +1,191 @@
+/*Content*/
+.content_daisanh_post{
+	background-color: rgba(255, 255, 255, 0.83);
+	color: black;
+	margin-top: 51px;
+	margin-bottom:100px;
+}
+#contentdaisanh_post .post-header{
+	padding: 17px 0;
+	margin-bottom: 17px;
+	float: left;
+	width: 100%;
+	border-bottom: 1px solid white;
+}
+#contentdaisanh_post .post-content{
+	background-color: transparent;
+}
+#contentdaisanh_post .post-title{
+	margin:0;
+	padding-left: 20px;
+	line-height: 21px;
+	color: black;
+}
+#contentdaisanh_post .post-main{
+	width: 100%;
+	border-bottom: 1px solid white;
+	padding-bottom: 50px;
+	
+}
+#contentdaisanh_post .post-main1{
+	padding-top: 80px;
+
+}
+#contentdaisanh_post .post-main2{
+	padding-left: 90px;
+	padding-right: 10px;
+	padding-top: 10px;
+
+}
+#contentdaisanh_post .post-avatar{
+	padding-left: 13px;
+}
+#contentdaisanh_post .post-content .post-user img{
+	display: initial;
+}
+#contentdaisanh_post .post-main img{
+	width: 60px;
+	height: 60px;
+	display: initial;
+
+	border-radius:50%;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+}
+#contentdaisanh_post a{
+	color: black;
+}
+#contentdaisanh_post .post-name{
+	padding-left: 90px;
+}
+		/*add comment*/
+#contentdaisanh_post .post-comment{
+	padding-top: 30px;
+}
+#contentdaisanh_post .post-comment img{
+	width: 50px;
+	height: 50px;
+	display: initial;
+
+	border-radius:50%;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+}
+#contentdaisanh_post .post-comment textarea{
+	padding: 15px 20px;
+	width: 92%;
+	float: left;
+	height: 100px;
+	border-radius: 10px;
+	font-size: 13px;
+	background: rgba(255, 255, 255, 0.83) ;
+
+}
+#contentdaisanh_post .btnPost{
+	background-color:transparent;
+	border: 1px solid rgb(158, 158, 158);
+	color: rgb(105, 100, 100);
+	float: left; 
+	margin-top: 74px;
+	margin-left: 5px;
+}
+@media (max-width: 760px){
+  #contentdaisanh_post .post-comment img{
+	width: 0px;
+	}
+	
+}
+@media (max-width: 760px){
+  #contentdaisanh_post .post-comment textarea{
+	padding: 15px 20px;
+	margin-left: 0px;
+	width: 85%;
+	float: left;
+	height: 100px;
+	border-radius: 10px;
+	font-size: 13px;
+	background: rgba(255, 255, 255, 0.83) ;
+	}
+}
+
+.post-comment .avatar-comment{
+	float: left;
+}
+
+      /*comment*/
+.listcomment{
+	padding-top: 35px;
+	padding-left: 0px;
+}
+.cmt{
+	margin-left: 10px;
+	padding-bottom: 30px;
+}
+#contentdaisanh_post .listcomment img{
+	width: 50px;
+	height: 50px;
+	display: initial;
+
+	border-radius:50%;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+}
+#contentdaisanh_post .avatar_cmt{
+	float: left;
+	padding-left: 12px;
+}
+#contentdaisanh_post .cmt-content{
+	padding-left: 10%;
+	padding-top: 6px;
+	padding-right: 5%;
+}
+	/*reply comment*/
+#accordion .panel{    
+	border: none; 
+	margin-left: 75px;   
+	box-shadow: none;     
+	text-align: left;
+	background-color: transparent;
+}
+#accordion .panel-default>.panel-heading{
+	color: black;
+	padding: 0px;
+	text-align: right;
+	padding-right: 30px;
+	background-color: transparent;
+	border-color: transparent;
+}
+#accordion .panel-title{
+	font-size: 13px;
+}
+#accordion .panel-body{
+	padding: 0px;
+	margin-left: 13px;
+	padding-bottom: 13px;
+}
+#accordion .avatar_reply{
+	float: left;
+}
+#accordion .post_reply{
+	padding-left: 64px;
+}
+#contentdaisanh_post .reply-content{
+	padding-left: 64px;
+	padding-top: 6px;
+	padding-right: 20px;
+}
+#accordion .rep{
+	padding-bottom: 10px;
+}
+
+
+#contentdaisanh_post .pagination{
+	padding-left: 20px;
+}
+#contentdaisanh_post .pagination a{
+	background-color: transparent;
+}
+#contentdaisanh_post .pagination span {
+	background-color: transparent;
+}
+

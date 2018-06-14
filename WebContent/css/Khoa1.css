@@ -1,0 +1,100 @@
+#container {
+	margin: 0 auto;
+	width: 800px;
+	height: 100%;
+	background-color:#efeaea !important;
+	border:10%;
+	 font-size: 1.5em;
+}
+#Trang_1{
+	background-color:#efeaea !important;
+}
+#Trang_2{
+	background-color:#efeaea !important;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    width: 100%;
+}
+.row input, .row textarea {
+    width: 100% !important;
+}
+.xacnhan{
+	text-decoration: none !important;
+    background: rgb(16, 7, 171);
+    display: inline-block;
+    padding: 12px;
+    margin-top: 20px;
+    padding-left: 40px !important;
+    padding-right: 40px;
+	border:blue;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	color:white;
+}
+.tiep-tuc{
+	text-align:right;
+}
+.tab {
+	text-decoration: none !important;
+    background: rgba(0, 0, 0, 0.62);
+    display: inline-block;
+    padding: 12px;
+    padding-left: 40px !important;
+    padding-right: 40px;
+	border:red;
+	-moz-border-radius-topright:10px;
+	-webkit-border-top-right-radius:10px;
+	color:white;
+}
+a.tab:hover {
+	color: white !important;
+	background: rgb(16, 7, 171) !important;
+}
+a.tab:visited {
+	color: white !important;
+}
+
+ #divHoanThanh{
+	/* width: auto; */
+	height: 100%;
+	
+	display:none;
+	background-color:#efeaea;
+}
+ #divXacNhan{
+	/* width: auto; */
+	height: 100%;
+	background-color:#efeaea;
+}
+h2{
+	text-align:center;
+	    text-transform: uppercase;
+}
+
+.inputCss {
+	padding: 6px;
+    margin: 5px;
+}
+
+#nutDangki , #nutDangNhap{
+	padding: 10px;
+    background: yellow;
+    border: none;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+#nutDangki:hover, #nutDangNhap:hover{
+	background:#E0EEEE !important;
+	    cursor: pointer;
+}
+
+#pthongbao {
+	color: red;
+	padding: 20px;
+	display: none;
+	margin-right: 30px;	
+}

@@ -1,0 +1,291 @@
+.header-page {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 1px;
+  background: url(../images/khoahoc/tieude/KH3.jpg) fixed;
+  background-size: cover;
+  height: 250px;
+  width: 100%;
+}
+.header-page h1{
+  margin-top: 130px;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+}
+.header-content {
+  width: 80%;
+  margin: auto;
+}
+/*------BÃŠN TRÃ�I------*/
+.Info_Content{
+	margin-top: 100px;
+    margin-bottom: 100px;
+}
+.Info_Content_Menu{
+	margin:0;
+	padding: 0;
+}
+
+.Menu_Image_1{
+	height:180px;
+	width:180px;
+	margin: auto;
+	margin-bottom: 10px;
+}
+/*ThÃ´ng tin menu*/
+.Menu_ContentMain{
+	list-style-type: none;
+    margin-top: 50px;
+    padding: 0;
+    width: 100%;
+    background-color: #fff;
+    border:1px solid #d4c8c8;
+}
+.Menu_ContentMain li{
+    width: 100%;
+}
+.Menu_ContentMain li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    height: 100%;
+}
+@media (max-width: 992px){
+  .Menu_ContentMain{
+  	display: inline-flex;
+  	border:1px solid #d4c8c8;
+  }
+}
+
+
+.nav-tabs>li>a {
+    margin: 0px;
+    border-radius: 4px 4px 0 0;
+}
+.nav-tabs>li>a.active{
+    background-color: #e8e1e1;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    background-color: #ece5e5;
+}
+
+/*-------BÃŠN PHáº¢I-------*/
+.Info_Content_text{
+	height:auto;
+	background-color: #efeaea;
+}
+/*Ná»˜I DUNG CHÃ�NH MENU 1*/
+.Info_Content_text1{
+	height:600px;
+	width: 100%;
+	margin: 0;
+	display: block;
+}
+.Text1_info{
+	border-style: none;
+	font-size: 14px;
+    padding: 20px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+.table_text1{
+	margin: 100px 50px 0px 50px;
+}
+.tieude_text1{
+	text-align: center;
+	height: 50px;
+	font-size: 20px;
+	font-style: 100px;
+	font-weight: bold;
+}
+
+.Text2_info{
+	margin: 150px 0px 0px 0px;
+	width:200px;
+	height:150px;
+}
+.img_text2_1{
+	width:170px;
+	height:170px;
+}
+@media (max-width: 992px){
+  .Text2_info{
+  	margin: 0px 100px 0px 60px;
+  }
+  .Info_Content_text3{
+  	width: 100%;
+  }
+}
+
+/*Ná»˜I DUNG CHÃ�NH MENU 2*/
+.Info_Content_text2{
+	height:auto;
+	width: 100%;
+	display: none;
+}
+.card-inner{
+	margin-left: 70px;
+	margin-right: 70px;
+	padding-bottom: 70px;
+    padding-top: 30px;
+}
+
+.fileinput-exists .fileinput-new, 
+.fileinput-new .fileinput-exists {
+    display: none;
+}
+.fileinput .thumbnail {
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 5px;
+    vertical-align: middle;
+    text-align: center;
+}
+.btn-file > input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    opacity: 0;
+    min-width: 100%;
+    min-height: 100%;
+    direction: ltr;
+    cursor: pointer;
+    border-radius: 0px;
+    display: block;
+}
+.btn:not(.btn-link):not(.btn-circle) {
+    border-radius: 2px;
+    font-size: 13px;
+    outline: none;
+}
+.btn-file {
+    overflow: hidden;
+    position: relative;
+    vertical-align: middle;
+}
+.bg-red{
+	border-bottom: none !important;
+    color: #fff !important;
+}
+.form-group label.error {
+    font-size: 12px;
+    display: none;
+    margin-top: 5px;
+    font-weight: normal;
+    color: #F44336;
+}
+/*Ná»˜I DUNG CHÃ�NH MENU 3*/
+.Info_Content_text3{
+	height:600px;
+	width: 70%;
+	display: none;
+	margin: auto;
+}
+.form_InfoMain{
+	font-size: 14px;
+    padding: 20px;
+    padding-top: 100px;
+    font-weight: bold;
+}
+.form-control-label{
+	margin-top: 10px;
+}
+.form_submit1{
+	margin-top: 20px;
+    margin-left: 51px;
+    background-color: dimgrey;
+    color:white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.form_submit1:hover{
+	background-color: gray;
+}
+@media (max-width: 992px){
+  .Info_Content_text3{
+  	width: 100% !important;
+  }
+  .table_text1 {
+    	margin: 30px 0px 0px 0px;
+	}
+	.form_InfoMain{
+    	padding-top: 30px;
+	}
+}
+/*Ná»˜I DUNG CHÃ�NH MENU 4*/
+.Info_Content_text4{
+	height:auto;
+	width: 100%;
+	display: none;
+	margin: 0;
+	padding: 0;
+}
+/*search button*/
+.input-group{
+	display: inline-flex;
+}
+
+.tieude_text_course{
+	padding-top: 30px;
+    margin-top: -1px;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.body {
+    font-size: 16px;
+    padding: 20px;
+    margin: 0;
+    padding: 0;
+}
+#myInput{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 3px;
+}
+.table{
+    margin-bottom: 200px;
+}
+@media (max-width: 992px){
+  .body {
+    font-size: 14px;
+    padding: 10px;
+        margin-left: -15px;
+	}
+    .table{
+        margin-bottom: 150px;
+    }
+}
+@media (max-width: 576px){
+  .body {
+	    font-size: 10px;
+	}
+}
+@media (max-width: 433px){
+  .hiden_startday{
+    display: none;
+  }
+}
+/*modal course*/
+#myModal{
+    z-index: 2000;
+}
+.modal-body{
+    margin: 10px 0px;
+}
+.modal-content{
+    width:100%;
+}
+
+

@@ -1,0 +1,313 @@
+.Menu_ContentMain li{
+	border-top: 1px solid #afa9a9;
+}
+li.list-group-item{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    margin-top: 20px;
+}
+
+.themed_box .box-header {
+    background: #0c71c1;
+    color: white;
+    border: 1px solid #0669af;
+    text-shadow: 0 1px 0 #014b80;
+}
+.box-content {
+    border: 1px solid #d8d8d8;
+    border-top: 0;
+    background: white;
+    padding: 10px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.typo ul {
+    padding: 0 0 0 20px;
+    display: block;
+}
+.width50 {
+    width: 38%;
+    padding: 0 !important;
+}
+.fl {
+    float: left !important;
+}
+.typo li {
+    line-height: 24px;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.typo .approved {
+    color: #008000;
+}
+.typo .pending {
+    color: #0173b9;
+}
+.typo .spam {
+    color: #e10000;
+}
+
+.box-content{
+    height: 200px;
+}
+.box-header {
+    height: 35px;
+    border: 1px solid #d8d8d8;
+    line-height: 35px;
+    padding: 0 0 0 10px;
+    margin: 0;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-shadow: 0 1px 0 white;
+    font-size: 14px;
+    color: #0669af;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.Info_Content_text1{
+    height:auto !important;
+    padding-bottom: 30px;
+}
+/*USER */
+.ui-progressbar .ui-progressbar-value {
+    margin: -1px;
+    height: 100%;
+}
+.ui-progressbar {
+    height: 2em;
+    text-align: left;
+}
+.progressbar, .progressbaractive, .progressbarpending, .progressbarsuspended {
+    background: #dfdfdf;
+    border: 0;
+    margin: 0 0 10px 0;
+}
+
+/*QuickPost*/
+.box-content-post{
+    height:auto !important;
+}
+/*xét màu cho progressbar*/
+.progressbaractive .ui-progressbar-value {
+    background: green !important;
+}
+.progressbarpending .ui-progressbar-value {
+    background: blue !important;
+}
+.progressbarsuspended .ui-progressbar-value {
+    background: red !important;
+}
+
+.ui-corner-all {
+    border-radius: 4px/*progressbar Radius*/;
+}
+.ui-corner-left {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+
+.form-label {
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 11px;
+    color: #373737;
+    height: 20px;
+}
+/*content_icon_QuickPost*/
+div.wysiwyg {
+    border: 1px solid #cccccc;
+    padding: 5px;
+    background-color: #ffffff;
+}
+div.wysiwyg ul.panel {
+    border-bottom: 1px solid #cccccc;
+    float: left;
+    width: 100%;
+    padding: 0 0 0 0;
+}
+/*cắt từ ảnh cho các icon trên area*/
+div.wysiwyg ul.panel li a.bold {
+    background-position: 0 -16px;
+}
+div.wysiwyg ul.panel li a.italic {
+    background-position: -16px -16px;
+}
+div.wysiwyg ul.panel li a.strikeThrough {
+    background-position: -32px -16px;
+}
+div.wysiwyg ul.panel li a.underline {
+    background-position: -48px -16px;
+}
+div.wysiwyg ul.panel li a.justifyLeft {
+    background-position: 0 0;
+}
+div.wysiwyg ul.panel li a.justifyCenter {
+    background-position: -16px 0;
+}
+div.wysiwyg ul.panel li a.justifyRight {
+    background-position: -32px 0;
+}
+div.wysiwyg ul.panel li a.justifyFull {
+    background-position: -48px 0;
+}
+div.wysiwyg ul.panel li a.undo {
+    background-position: 0 -64px;
+}
+div.wysiwyg ul.panel li a.redo {
+    background-position: -16px -64px;
+}
+div.wysiwyg ul.panel li a.insertOrderedList {
+    background-position: -32px -48px;
+}
+div.wysiwyg ul.panel li a.insertUnorderedList {
+    background-position: -16px -48px;
+}
+div.wysiwyg ul.panel li a.createLink {
+    background-position: -80px -48px;
+}
+div.wysiwyg ul.panel li a.insertImage {
+    background-position: -80px -80px;
+}
+div.wysiwyg ul.panel li a.h1 {
+    background-position: 0 -32px;
+}
+div.wysiwyg ul.panel li a.h2 {
+    background-position: -16px -32px;
+}
+div.wysiwyg ul.panel li a.h3 {
+    background-position: -32px -32px;
+}
+/*đường kẻ dọc*/
+div.wysiwyg ul.panel li.separator {
+    height: 16px;
+    margin: 0 4px;
+    border-left: 1px solid #cccccc;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+div.wysiwyg ul.panel li a {
+    text-indent: -5000px;
+    opacity: 0.85;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url(../images/jquery.wysiwyg.gif) no-repeat -64px -80px;
+    border: 0;
+    cursor: pointer;
+    padding: 1px;
+}
+div.wysiwyg ul.panel li {
+    list-style-type: none;
+    float: left;
+    margin: 1px 2px 3px 0;
+    background: #ffffff;
+}
+/*button save...*/
+.box-content .button {
+    margin: 0 10px 10px 0;
+    display: inline-block;
+}
+.grey {
+    background: #dc0909 repeat-x left top;
+    border: 1px solid #e3e3e3;
+    color: white;
+}
+.button {
+    padding: 4px 8px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.themed {
+    background: #0669af repeat-x left top;
+    color: white !important;
+    border: 1px solid #2a9fee;
+}
+/*analytics*/
+
+.box_view{
+    margin: 15px;
+}
+#wysiwyg {
+    width: 100%;
+    min-height: 200px;
+    margin-top: -10px;
+}
+/*tai khoan*/
+.btn_xuly{
+    margin-top: 10px;
+}
+.btn_xuly button a:hover{
+    text-decoration: none;
+}
+.btn_xuly .btn_add i{
+    color: blue;
+}
+.btn_xuly .btn_edit i{
+    color: orange;
+}
+.btn_xuly .btn_delete i{
+    color: red;
+}
+
+
+
+/*==========TABLE USER===========*/
+table thead .table-checkbox {
+    width:10px;
+}
+/*
+ * TableTools styles
+ */
+
+.table tbody tr.active:hover td,
+.table tbody tr.active:hover th {
+    background-color: #0075b0 !important;
+}
+
+.table tbody tr.active a {
+    color: white;
+}
+
+table#myTable {
+    border: 1px solid #e9e9e9;
+    width: 100%;
+    border-radius: 5px;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    vertical-align: baseline;
+}
+/*class=old*/
+table#myTable tr:nth-child(odd) {
+    background: #f0f0f0;
+}
+table#myTable tr {
+    border: 1px solid #e9e9e9;
+    background: #fff;
+}
+table#myTable td {
+    vertical-align: middle;
+}
+table#myTable th {
+    font-weight: bold;
+    text-align: left;
+}
+table#myTable thead tr .header {
+    background-color: #a0a1a2;
+    height: 2em;
+    color:#0c1129;
+}

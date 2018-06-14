@@ -1,0 +1,161 @@
+
+img{
+-webkit-transition-duration: 0.5s; /*Webkit: Animation duration*/
+-moz-transition-duration: 0.5s; /*Mozilla duration version*/
+-o-transition-duration: 0.5s; /*Opera duration version*/
+margin: 0 10px 5px 0; /*margin between images*/
+}
+img:hover{
+-webkit-transform:scale(1.1); /*Webkit: Scale up image to 1.2x original size*/
+-moz-transform:scale(1.1); /*Mozilla scale version*/
+-o-transform:scale(1.1); /*Opera scale version*/}
+
+::selection {
+  background: rgb(240, 236, 241);
+  color: black;
+}
+.header-page {
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 1px;
+  background: url(../images/tintuc/tintuc.jpg) fixed;
+  background-size: cover;
+  height: 353px;
+  width: 100%;
+}
+.header-page h1{
+  margin-top: 160px;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+}
+.header-content {
+  width: 80%;
+  margin: auto;
+}
+a{
+  color: black;
+}
+.noidungtintuc a:hover input{
+	color:red !important;
+}
+a:hover h4{
+	color:red;
+}
+
+.noidungtintuc{
+  padding-top: 29px;
+  margin-left: 20px;
+}
+/* =================================Phần lịch khai giảng=============================== */
+#video{
+		font-weight: 700;
+   		 font-size: 20px;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+display: block;
+max-width: 100%;
+height: 500px;
+}
+.carousel-control.right, .carousel-control.left {
+  background-image: none;
+  color: #1ECBF4;
+ 
+}
+.carousel-indicators li {
+  border-color: #1ECBF4;
+}
+.carousel-indicators li.active {
+  background-color: #1ECBF4;
+ 
+}
+a:hover{
+color:red;
+}
+h2{
+padding-top: 10px;
+font-style: italic;
+font-family: -webkit-pictograph;
+font-size: 30px;
+}
+.col-sm-4{
+padding-left:0px;
+}
+@media (min-width: 850px)
+bootstrap.css:1798
+.col-sm-4 {
+width: 50%;
+}	
+.container1{
+	text-align:center;
+	padding-top:100px;
+	margin-left:15px;
+	margin-left:auto;
+}
+#LichKhaiGiang h2{
+	text-align:center;
+}
+#LichKhaiGiang .nav{
+	padding-left:120px;
+}
+#LichKhaiGiang .col-sm-8{
+	width: 60%;
+    padding-left: 50px;
+}
+.nav nav-pills nav-stacked{
+	color:black;	
+	
+}
+#div2{
+	padding-top:300px;
+}
+#LichKhaiGiang .container1 .row .col-sm-4 ul>li> a:hover{
+	color: #4eb7f5;
+	background-color:rgba(219, 255, 0, 0.04);
+	border-color:blue;
+	display:block;
+}
+#LichKhaiGiang .container1 .row .col-sm-4 ul>li.active > a:active{
+	color:blue;
+	background-color:rgba(219, 255, 0, 0.04);
+	border-color:red;
+	display:block;
+}
+#LichKhaiGiang li>a{
+  color:black;
+  background-color: rgba(219, 255, 0, 0.04);
+  font-family: sans-serif ;
+    letter-spacing: .2px
+	font-weight:1px;
+}
+.sb-search {
+    width: 222px;
+    margin-left: 48px;
+    margin-top: 76px;
+    color: #66737c;
+    padding: 13px 0;
+    padding-left: 26px;
+    background: url(search.png) no-repeat #fff;
+    background-size: 20px 20px;
+    background-position: 0 10px;
+}
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    user-select: text;
+    cursor: auto;
+    padding: 1px;
+   border:none;
+}
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 13.3333px Arial;
+}
